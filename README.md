@@ -68,6 +68,6 @@ published by the Free Software Foundation, either version 3 of the License, or
 <br>                                                                                                                
 # Thanks To      
                                                                                                                     
-<a href=" https://github.com/MoTechYT">MoTechYT</a> For His <a href=" https://github.com/MoTechYT/MT-Telegraph">Repo</a>                                                                                                           
+                                                                                                                                    [MoTechYT](https://github.com/AlbertEinsteinTg)For His <a href=" https://github.com/MoTechYT/MT-Telegraph">Repo</a>                                                                                                           
                                                                                                                                                                                          
 **Star this Repo if you Liked it ⭐⭐⭐**
