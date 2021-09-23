@@ -93,7 +93,7 @@ async def home(client, message):
         chat_id=message.chat.id,
         text="""<b>👋Hey,
         
-ഞാൻ <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> എന്ന ഗ്രൂപ്പിൽ Use Cheyan Vendi Ane Indakiye😌 <a href="https://cnpmjs.org/package/telegraph-uploader">Telegraph Uploader</a> bot ആണ് വെറുതെ നോക്കി നിന്ന്  സമയം കളയണ്ട എന്നെ അതിൽ യൂസ് ചെയ്യാൻ മാത്രമേ പറ്റൂ
+ഞാൻ <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> എന്ന ഗ്രൂപ്പിൽ Use Cheyan Vendi Ane Indakiye😌 <a href="https://cnpmjs.org/package/telegraph-uploader">Telegraph Uploader</a> bot ആണ് വെറുതെ നോക്കി നിന്ന്  സമയം കളയണ്ട എന്നെ Avarke യൂസ് ചെയ്യാൻ മാത്രമേ പറ്റൂ
 
         
 Made With Love By <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> </b>""",
