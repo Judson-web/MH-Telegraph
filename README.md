@@ -63,13 +63,11 @@ published by the Free Software Foundation, either version 3 of the License, or
 </p>
 </details>
                                                                                                                     
-### Credits
 <details><summary>Credits</summary>
 <p>
 <br>                                                                                                                
 # Thanks To      
                                                                                                                     
- https://github.com/MoTechYT For His Repo                                                                                                                
-                                                                                                                   
-                                                                                                                    
+<a href=" https://github.com/MoTechYT">MoTechYT</a> For His <a href=" https://github.com/MoTechYT/MT-Telegraph">Repo</a>                                                                                                           
+                                                                                                                                                                                         
 **Star this Repo if you Liked it ⭐⭐⭐**
