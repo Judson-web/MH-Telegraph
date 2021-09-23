@@ -31,15 +31,15 @@ Mo_tech_mrk_yt = Client(
 
 @Mo_tech_mrk_yt.on_message(filters.photo)
 async def uploadphoto(client, message):
-  msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
+  msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ🙃`")
   userid = str(message.chat.id)
   img_path = (f"./Download....!/{userid}.jpg")
   img_path = await client.download_media(message=message, file_name=img_path)
-  await msg.edit_text("`Uploading.....`")
+  await msg.edit_text("`Uploading.....🔥`")
   try:
     tlink = upload_file(img_path)
   except:
-    await msg.edit_text("`Something went wrong`") 
+    await msg.edit_text("`Something went wrong🧐`") 
   else:
     await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
     os.remove(img_path) 
@@ -47,57 +47,56 @@ async def uploadphoto(client, message):
 @Mo_tech_mrk_yt.on_message(filters.animation)
 async def uploadgif(client, message):
   if(message.animation.file_size < 5242880):
-    msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
+    msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ🙃`")
     userid = str(message.chat.id)
     gif_path = (f"./DOWNLOADS/{userid}.mp4")
     gif_path = await client.download_media(message=message, file_name=gif_path)
-    await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....`")
+    await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....🔥`")
     try:
       tlink = upload_file(gif_path)
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
       os.remove(gif_path)   
     except:
-      await msg.edit_text("Something really Happend Wrong...") 
+      await msg.edit_text("Something really Happend Wrong🧐...") 
   else:
-    await message.reply_text("Size Should Be Less Than 5 mb")
+    await message.reply_text("Hmm Size Should Be Less Than 5 mb")
 
 @Mo_tech_mrk_yt.on_message(filters.video)
 async def uploadvid(client, message):
   if(message.video.file_size < 5242880):
-    msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
+    msg = await message.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ🙃`")
     userid = str(message.chat.id)
     vid_path = (f"./DOWNLOADS/{userid}.mp4")
     vid_path = await client.download_media(message=message, file_name=vid_path)
-    await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....`")
+    await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ🔥.....`")
     try:
       tlink = upload_file(vid_path)
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
       os.remove(vid_path)   
     except:
-      await msg.edit_text("Something really Happend Wrong...") 
+      await msg.edit_text("Something really Happend Wrong🧐...") 
   else:
-    await message.reply_text("Size Should Be Less Than 5 mb")
+    await message.reply_text("Da Mowne Size Should Be Less Than 5 mb")
 
 @Mo_tech_mrk_yt.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('🤔Help', callback_data='help'),
-        InlineKeyboardButton('Close🔐', callback_data='close')
+        InlineKeyboardButton('🤔ᕼᗴᒪᑭ', callback_data='help'),
+        InlineKeyboardButton('ℭ𝔩𝔬𝔰𝔢🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('🗣️Any Doubt', url='http://telegram.me/mo_tech_Group'),
-        InlineKeyboardButton('Source Code📃', url='https://github.com/MoTechYT/MT-TelegraPh')
+        InlineKeyboardButton('ᗰᗝᐯᎥᗴ Ǥᖇᗝᑌᑭ🎬', url='http://telegram.me/mo_tech_Group'),
+        InlineKeyboardButton('𝔖𝔬𝔲𝔯𝔠𝔢 ℭ𝔬𝔡𝔢📃 𝔙𝔢𝔫𝔬 ℭ𝔩𝔦𝔠𝔨 𝔐𝔢', url='https://github.com/MoTechYT/MT-TelegraPh')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Mo_tech_mrk_yt.send_message(
         chat_id=message.chat.id,
-        text="""<b>👋Hey there,
+        text="""<b>👋Hey,
         
-Am a telegraph Uploader That Can Upload Photo, Video And Gif
+ഞാൻ <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> എന്ന ഗ്രൂപ്പിൽ പണി ചെയ്യുന്ന ഒരു ഫിൽറ്റർ bot ആണ് വെറുതെ നോക്കി നിന്ന്  സമയം കളയണ്ട എന്നെ അതിൽ യൂസ് ചെയ്യാൻ മാത്രമേ പറ്റൂ
+
         
-Simply send me photo, video or gif under 5MB I will upload it to Telegra.ph
-        
-Made With Love By @Mo_Tech_YT</b>""",
+Made With Love By <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> </b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -106,20 +105,16 @@ Made With Love By @Mo_Tech_YT</b>""",
 @Mo_tech_mrk_yt.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('🏡Home', callback_data='home'),
-        InlineKeyboardButton('Close🔐', callback_data='close')
+        InlineKeyboardButton('🏡ᕼᗝᗰᗴ', callback_data='home'),
+        InlineKeyboardButton('ℭ𝔩𝔬𝔰𝔢🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('⚕️Our Channel⚕️', url='http://telegram.me/Mo_Tech_YT')
+        InlineKeyboardButton('⚕️𝔒𝔲𝔯 ℭ𝔥𝔞𝔫𝔫𝔢𝔩⚕️', url='https://t.me/storytimeoG')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Mo_tech_mrk_yt.send_message(
         chat_id=message.chat.id,
-        text="""**There Is Nothung To KnowMore,
-        
-Just Send Me A Video/gif/photo Upto 5mb.
-
-i'll upload it to telegra.ph and give you the direct link**""",
+        text="""**വെറുതെ നോക്കി നിന്ന്  സമയം കളയണ്ട എന്നെ <a href="https://t.me/movieshub_group">Movies Hub | മൂവീസ് ഹബ്</a> എന്ന ഗ്രൂപ്പിൽ Use Cheyan Vendi Ane Indakiye😌**""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
