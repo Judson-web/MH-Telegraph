@@ -3,13 +3,13 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/MoTechYT/MT-TelegraPh/stargazers">
-    <img src="https://img.shields.io/github/stars/MoTechYT/MT-TelegraPh?style=social">
+  <a href="https://github.com/Judson-web/MH-TelegraPh/stargazers">
+    <img src="https://img.shields.io/github/stars/Judson-web/MH-TelegraPh?style=social">
 
   </a>
   
-  <a href="https://github.com/MoTechYT/MT-TelegraPh/fork">
-    <img src="https://img.shields.io/github/forks/MoTechYT/MT-TelegraPh?label=Fork&style=social">
+  <a href="https://github.com/Judson-web/MH-TelegraPh/fork">
+    <img src="https://img.shields.io/github/forks/Judson-web/MH-TelegraPh?label=Fork&style=social">
 
   </a>  
 </p>
@@ -17,7 +17,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/MoTechYT/MT-TelegraPh">
+<a href="https://heroku.com/deploy?template=https://github.com/Judson-web/MH-TelegraPh">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -46,9 +46,9 @@ Now send /start to you bot to see if it is running!
 <br>
 ``TG_BOT_TOKEN : YOUR BOT TOKEN. GET IT FROM @BOTFATHER``
 
-``START_MESSAGE : YOUR TELEGRAM APP ID or @MT_MyTelegramOrg_Bot``
+``START_MESSAGE : YOUR TELEGRAM APP ID``
 
-``BOT_USER_NAME : YOUR TELEGRAM API HASH or @MT_MyTelegramOrg_Bot````
+``BOT_USER_NAME : YOUR TELEGRAM API HASH````
 </a>
 </p>
 </details>
