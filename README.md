@@ -62,5 +62,14 @@ published by the Free Software Foundation, either version 3 of the License, or
 </a>
 </p>
 </details>
-
+                                                                                                                    
+### Credits
+<details><summary>Credits</summary>
+<p>
+<br>                                                                                                                
+# Thanks To      
+                                                                                                                    
+ https://github.com/MoTechYT For His Repo                                                                                                                
+                                                                                                                   
+                                                                                                                    
 **Star this Repo if you Liked it ⭐⭐⭐**
