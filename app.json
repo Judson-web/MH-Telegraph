@@ -1,7 +1,7 @@
 {
     "name": "MH-Telegraph Uploader Bot",
     "description": "A bot that can upload medias to Telegra.ph",
-    "logo": "https://telegra.ph/file/3dd527f78a7df53c9eecd.jpg",
+    "logo": "https://telegra.ph/file/a0f9cf0a55ad31deb3c77.jpg",
     "keywords": [
         "Telegra.ph",
         "Uploader",
@@ -10,7 +10,7 @@
     ],
     "website": "https://github.com/Judson-web",
     "repository": "https://github.com/Judson-web/MH-Telegraph",
-    "success_url": "https://github.com/Judson-web/MH-Telegraph",
+    "success_url": "http://t.me/MH_TelegraphUploader_bot",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
