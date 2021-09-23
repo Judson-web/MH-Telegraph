@@ -41,17 +41,6 @@ Now send /start to you bot to see if it is running!
 </p>
 </details>
 
-<details><summary>Varibels</summary>
-<p>
-<br>
-``TG_BOT_TOKEN : YOUR BOT TOKEN. GET IT FROM @BOTFATHER``
-
-``START_MESSAGE : YOUR TELEGRAM APP ID``
-
-``BOT_USER_NAME : YOUR TELEGRAM API HASH````
-</a>
-</p>
-</details>
 
 <details><summary>SUPPORT</summary>
 <p>
