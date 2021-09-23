@@ -86,7 +86,7 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('ᗰᗝᐯᎥᗴ Ǥᖇᗝᑌᑭ🎬', url='http://telegram.me/mo_tech_Group'),
-        InlineKeyboardButton('𝔖𝔬𝔲𝔯𝔠𝔢 ℭ𝔬𝔡𝔢📃 𝔙𝔢𝔫𝔬 ℭ𝔩𝔦𝔠𝔨 𝔐𝔢', url='https://github.com/MoTechYT/MT-TelegraPh')
+        InlineKeyboardButton('𝔖𝔬𝔲𝔯𝔠𝔢 ℭ𝔬𝔡𝔢📃', url='https://github.com/MoTechYT/MT-TelegraPh')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Mo_tech_mrk_yt.send_message(
